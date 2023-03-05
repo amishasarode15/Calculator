@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+
+<body>
+    <h1 class="h-primary text-align">Welcome to Calculate me</h1>
+    <div class="calcu">
+        <div class="top-container">
+
+            <div id="box" class="container text-align">
+                <div class="small">
+                    <button class="small-btn" id="small-1"></button>
+                    <button class="small-btn" id="small-2"></button>
+                    <button class="small-btn" id="small-3"></button>
+                    <div class="large">
+                        <img src="Images/day.png" id="sun" alt="" sizes="" srcset="" width="30px" height="30px"
+                            OnClientClick="changeColor(); return false; ">
+                        <img src="Images/night.png" id="moon" alt="" width="30px" height="30px">
+                    </div>
+                </div>
+
+
+                <input id="in" type="text" class="input">
+
+                <div id="buttons" class="row">
+                    <button id="button1" class="btn bg-blue">AC</button>
+                    <button id="button2" class="btn bg-yellow">%</button>
+                    <button id="button3" class="btn bg-yellow">/</button>
+                    <button id="button4" class="btn bg-yellow">*</button>
+                </div>
+                <div class="row">
+                    <button id="button5" class="btn bg-sky">7</button>
+                    <button id="button6" class="btn bg-sky">8</button>
+                    <button id="button7" class="btn bg-sky">9</button>
+                    <button id="button8" class="btn bg-yellow">-</button>
+                </div>
+                <div class="row">
+                    <button id="button9" class="btn bg-sky">4</button>
+                    <button id="button10" class="btn bg-sky">5</button>
+                    <button id="button11" class="btn bg-sky">6</button>
+                    <button id="button12" class="btn bg-yellow">+</button>
+                </div>
+                <div class="row">
+                    <button id="button13" class="btn bg-sky">1</button>
+                    <button id="button14" class="btn bg-sky">2</button>
+                    <button id="button15" class="btn bg-sky">3</button>
+                    <button id="button16" class="btn bg-yellow">(</button>
+                </div>
+                <div class="row">
+                    <button id="button17" class="btn bg-sky">0</button>
+                    <button id="button18" class="btn bg-sky">.</button>
+                    <button id="button19" class="btn bg-yellow">=</button>
+                    <button id="button20" class="btn bg-yellow">)</button>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="JS/script.js"></script>
+</body>
+
+</html>

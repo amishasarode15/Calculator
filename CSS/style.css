@@ -1,0 +1,139 @@
+.text-align{
+    text-align: center;
+}
+
+.h-primary{
+color: purple;
+font-weight: bolder;
+}
+
+@media  screen and (max-width:548px){
+    body{
+        margin-left: 50px;
+    }
+}
+
+.calcu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0px 50px;
+}
+
+.top-container{
+    padding: 10px 30px;
+    /* border: 2px solid grey; */
+    border-radius: 10px;
+}
+
+.container{
+    border: 2px solid black;
+    /* width: 25%;
+    height: 400px; */
+    padding: 0 20px 40px ;
+    /* background-color: #403e3e; */
+    background-color: rgb(49, 49, 49);
+    box-shadow: 0px 0px 10px purple;
+}
+
+.flex-box{
+    display: flex;
+}
+
+.flex-direction{
+    flex-direction: column;
+}
+
+.row{
+    margin: 10px 0;
+}
+
+.btn{
+    margin: 0px 8px;
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    font-size: 1rem;
+    cursor: pointer;
+    border-style: none;
+    box-shadow: 0px 0px 15px purple;
+}
+
+.input{
+    margin: 30px 0 16px;
+    font-size: 23px;
+    padding: 30px 0px 30px 50px;
+    border-radius: 8px;
+    font-display: auto;
+    color: white;
+    background-color: #231a1a;
+    border: 1px solid rgba(128, 0, 128, 0.829);
+    box-shadow: 0px 0px 6px purple;
+}
+
+.small{
+    display: flex;
+    margin: 5px 0 20px;
+}
+
+.small-btn{
+    width: 20px;
+    height: 20px;
+    border-radius: 100%;
+    cursor: pointer;
+    margin: 2px;
+    
+}
+
+.large{
+    margin-left: 180px;
+    /* border: 1px solid black; */
+    color: white;
+    /* background-color: #231a1a; */
+    border: 1px solid rgba(128, 0, 128, 0.829);
+    border-radius: 5px;
+}
+
+.large img{
+    margin: 3px;
+    cursor: pointer;
+}
+
+
+#small-1{
+    background-color: red;
+    transition-duration: 0.4s;
+}
+
+#small-2{
+    background-color: yellow;
+    transition-duration: 0.4s;
+}
+
+#small-3{
+    background-color: green;
+    transition-duration: 0.4s;
+}
+
+.bg-yellow{
+    /* background-image: linear-gradient(#FFC300,#FFEBA1); */
+    /* background-image: linear-gradient(#0f079c,#7699b7); */
+    /* color: white; */
+    /* background-color: #FFC300; */
+    background-color: black;
+    color: white;
+}
+
+.bg-blue{
+    /* background-image: linear-gradient(#0f079c,#7699b7); */
+    /* color: white; */
+    background-color: black;
+    color: white;
+}
+
+.bg-sky{
+    /* background-image: linear-gradient(#7B8FA1,#7B8FA1); */
+    background-color: black;
+    color: white;
+}
